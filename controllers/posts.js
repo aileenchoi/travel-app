@@ -36,6 +36,8 @@ module.exports = {
         image: result.secure_url,
         cloudinaryId: result.public_id,
         caption: req.body.caption,
+        country: req.body.country,
+        type: req.body.type,
         likes: 0,
         user: req.user.id,
       });
