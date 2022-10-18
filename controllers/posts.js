@@ -26,6 +26,14 @@ module.exports = {
       console.log(err);
     }
   },
+  getMySpots: async (req, res) => {
+    try {
+      const posts = await Post.find({user: req.user.id}).sort({ createdAt: "desc" }).lean();
+      res.render("my-spots.ejs", { posts: posts, user: req.user});
+    } catch (err) {
+      console.log(err);
+    }
+  },
   createPost: async (req, res) => {
     try {
       // Upload image to cloudinary
