@@ -10,7 +10,7 @@
       <div class="card-body">
         <h5 class="card-title"><%= posts[i].title%></h5>
         <p class="card-text"><%= posts[i].caption %></p>
-        <p class="card-text"><%= posts[i].userName %></p>
+        <p class="card-text"><small class="text-muted">By: <%= userName[i]%></small></p>
         <a href="/post/<%= posts[i]._id%>" class="btn btn-outline-primary">View Spot</a>
       </div>
       <div class="card-footer">
