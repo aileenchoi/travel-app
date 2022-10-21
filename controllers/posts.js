@@ -40,6 +40,15 @@ module.exports = {
       console.log(err);
     }
   },
+  searchSpot: async (req, res) => {
+    try {
+      let searchTerm= req.body.searchTerm;
+      let post = await Post.find({ $text: { $search: searchTerm, $diacriticSensitive: true}});
+      res.render('search.ejs', { post: post})
+    } catch (err) {
+      console.log(err);
+    }
+  },
   createPost: async (req, res) => {
     try {
       // Upload image to cloudinary

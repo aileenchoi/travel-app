@@ -1,5 +1,6 @@
 <%- include('partials/logged-in-header') -%>
 
+
 <div class="container card-container">
   <h1>Explore Spots</h1>
 <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -11,7 +12,7 @@
         <h5 class="card-title"><%= posts[i].title%></h5>
         <p class="card-text"><%= posts[i].caption %></p>
         <p class="card-text"><small class="text-muted">By: <%= userName[i]%></small></p>
-        <a href="/post/<%= posts[i]._id%>" class="btn btn-outline-primary">View Spot</a>
+        <a href="/post/<%= posts[i]._id%>" class="btn btn-outline-dark">View Spot</a>
       </div>
       <div class="card-footer">
         <span class="badge bg-primary"><%= posts[i].country%></span>
