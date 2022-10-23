@@ -1,3 +1,4 @@
+const HTTP_PORT = process.env.PORT || 8080;
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
@@ -10,7 +11,6 @@ const logger = require("morgan");
 const connectDB = require("./config/database");
 const mainRoutes = require("./routes/main");
 const postRoutes = require("./routes/posts");
-const PORT = 2500;
 
 //Use .env file in config folder
 require("dotenv").config({ path: "./config/.env" });
@@ -59,6 +59,7 @@ app.use("/", mainRoutes);
 app.use("/post", postRoutes);
 
 //Server Running
-app.listen(process.env.PORT || PORT, () => {
+app.listen(HTTP_PORT, () => {
   console.log("Server is running, you better catch it!");
 });
+  
