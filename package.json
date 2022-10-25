@@ -1,7 +1,7 @@
 {
-  "name": "binary-upload-boom",
+  "name": "Secret Spots",
   "version": "1.0.0",
-  "description": "100Devs Social Network",
+  "description": "Your curated travel directory",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
