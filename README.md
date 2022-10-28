@@ -1,8 +1,13 @@
 
-# Secret Spots
+# Secret Spots: About the Project
 
-Share your favorite travel recommendations with your friends.
+Secret Spots is a social app, where users can share their favorite travel recommendations with their friends, and explore recommendations from friends. 
 
+This full-stack CRUD app utilizes an MVC architectural layout to provide a clean, well organized, and structured application that is easy to maintain and scale if needed. 
+
+The app allows users to log in, create posts of the spot with a description, photo, and location tags, and adds them to the database and on the explore page. Users can view and like posts in the explore page. They can also search by location tags to find specific recommendations for their next travel destination! 
+
+Utilizing local authentication, a seamless login experience is obtained while also providing the security needed to ensure the multitide of databases as well as information given by a user is protected.
 
 
 ## How It's Made
