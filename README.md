@@ -17,7 +17,7 @@ Utilizing local authentication, a seamless login experience is obtained while al
 
 ### Link to Project
 
-Link to project: 
+Link to project: https://secret-spots-travel.herokuapp.com/login
 
 ### Demo User
 
@@ -25,9 +25,6 @@ email: tester1234@gmail.com
 
 password: tester1234
 ## Demo
-
-Insert gif or link to demo
-
 
 ## Installation
 
