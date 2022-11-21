@@ -52,3 +52,7 @@ To run this project, you will need to add the following environment variables to
   - CLOUD_NAME = `your cloudinary cloud name`
   - API_KEY = `your cloudinary api key`
   - API_SECRET = `your cloudinary api secret`
+  
+  ## Optimizations
+  - Follow feature
+  - Save feature
