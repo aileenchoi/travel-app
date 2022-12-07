@@ -14,6 +14,8 @@ Utilizing local authentication, a seamless login experience is obtained while al
 
 - Tech used: HTML, CSS, JavaScript, Bootstrap, Node.js, Express.js, MongoDB
 
+## Walkthrough
+
 
 ### Link to Project
 
