@@ -17,17 +17,6 @@ Utilizing local authentication, a seamless login experience is obtained while al
 ## Walkthrough
 https://watch.screencastify.com/v/WCg1PI1Eqi4UMQSAbukC
 
-### Link to Project
-
-Link to project: https://secret-spots-travel.herokuapp.com/login
-
-### Demo User
-
-email: tester1234@gmail.com
-
-password: tester1234
-## Demo
-
 ## Installation
 
 Install this project with npm
@@ -57,4 +46,4 @@ To run this project, you will need to add the following environment variables to
  
  ## Optimizations
   - Follow feature
-  - Save feature
+  - Save to a trip feature
