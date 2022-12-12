@@ -17,6 +17,12 @@ Utilizing local authentication, a seamless login experience is obtained while al
 ## Walkthrough
 https://watch.screencastify.com/v/WCg1PI1Eqi4UMQSAbukC
 
+## Try it yourself
+https://secret-spots.cyclic.app/
+
+Username: tester1234@gmail.com
+Password: tester1234
+
 ## Installation
 
 Install this project with npm
